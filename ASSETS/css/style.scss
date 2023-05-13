@@ -1,0 +1,150 @@
+$primary-color: #f7f7f6;
+$babyblue-COLOR: #075b22;
+$grey-color: #c9cfca;
+$secondary-color: #288e4a;
+$darkblue-color: #05771c;
+$DARK-COLOR: #0a5c0a;
+$GREEN-COLOR: #0a9b29;
+
+body {
+  background-color: $primary-color;
+
+  font-family: "verdana";
+}
+ul {
+  display: inline;
+}
+li {
+  display: inline;
+  margin-left: 2%;
+}
+
+.navbar {
+  background-color: $grey-color;
+  margin-bottom: 2%;
+  color: black;
+}
+
+.navbar-brand {
+  color: $GREEN-COLOR;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.nav-link {
+  color: black;
+  font-size: 18px;
+  font-size: large;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  font-size: xx-large;
+  color: $babyblue-COLOR;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-weight: bold;
+}
+h2 {
+  font-size: 22px;
+  font-size: xx-large;
+  color: $darkblue-color;
+  margin: auto 0;
+  font-weight: bold;
+  text-align: center;
+}
+h3 {
+  color: black;
+  font-weight: 300;
+  font-size: larger;
+  margin-bottom: 4%;
+}
+p {
+  font-size: medium;
+  text-align: justify;
+  margin-bottom: 3%;
+  font-weight: 200;
+}
+.row{
+  margin-bottom: 4%;
+  font-size: 14px;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-color: #288e4a;
+  border-radius: 5px;
+}
+
+.card,
+.container {
+  margin-bottom: 2%;
+  background-color: $primary-color;
+  font-size: 14px;
+  font-size: medium;
+  font-weight: bold;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.collapse {
+  margin: auto;
+  align-items: center;
+}
+.card-title {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  color: $darkblue-color;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 3%;
+}
+.card-body,
+.list-group,
+.card-text,
+.inputContainer,
+.form-group {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: medium;
+  font-weight: lighter;
+}
+
+.card-img-top,
+.card-img {
+  margin: 0 auto;
+  width: 100%;
+  border: 10px;
+  border-radius: 10px;
+  height: 10rem;
+}
+.btn {
+  background-color: $darkblue-color;
+  font-weight: bold;
+  font-family: "verdana";
+  color: $primary-color;
+}
+.card-footer {
+  background-color: $babyblue-COLOR;
+  font-size: 12px;
+  font-size: small;
+  color: black;
+  margin-top: 10%;
+}
+.img-fluid{
+  width:55%;
+  float: left;
+  margin: 2%;
+}
+.img-fluid-1{
+  width:100%;
+  margin: 2%;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}

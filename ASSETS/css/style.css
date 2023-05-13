@@ -1,0 +1,156 @@
+body {
+  background-color: #f7f7f6;
+  font-family: "verdana";
+}
+
+ul {
+  display: inline;
+}
+
+li {
+  display: inline;
+  margin-left: 2%;
+}
+
+.navbar {
+  background-color: #c9cfca;
+  margin-bottom: 2%;
+  color: black;
+}
+
+.navbar-brand {
+  color: #0a9b29;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.nav-link {
+  color: black;
+  font-size: 18px;
+  font-size: large;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  font-size: xx-large;
+  color: #075b22;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 22px;
+  font-size: xx-large;
+  color: #05771c;
+  margin: auto 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-weight: 300;
+  font-size: larger;
+  margin-bottom: 4%;
+}
+
+p {
+  font-size: medium;
+  text-align: justify;
+  margin-bottom: 3%;
+  font-weight: 200;
+}
+
+.row {
+  margin-bottom: 4%;
+  font-size: 14px;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-color: #288e4a;
+  border-radius: 5px;
+}
+
+.card,
+.container {
+  margin-bottom: 2%;
+  background-color: #f7f7f6;
+  font-size: 14px;
+  font-size: medium;
+  font-weight: bold;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.collapse {
+  margin: auto;
+  align-items: center;
+}
+
+.card-title {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  color: #05771c;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 3%;
+}
+
+.card-body,
+.list-group,
+.card-text,
+.inputContainer,
+.form-group {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: medium;
+  font-weight: lighter;
+}
+
+.card-img-top,
+.card-img {
+  margin: 0 auto;
+  width: 100%;
+  border: 10px;
+  border-radius: 10px;
+  height: 10rem;
+}
+
+.btn {
+  background-color: #05771c;
+  font-weight: bold;
+  font-family: "verdana";
+  color: #f7f7f6;
+}
+
+.card-footer {
+  background-color: #075b22;
+  font-size: 12px;
+  font-size: small;
+  color: black;
+  margin-top: 10%;
+}
+
+.img-fluid {
+  width: 55%;
+  float: left;
+  margin: 2%;
+}
+
+.img-fluid-1 {
+  width: 100%;
+  margin: 2%;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
